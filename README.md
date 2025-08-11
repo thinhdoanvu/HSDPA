@@ -20,6 +20,7 @@ Hyperparameters:
 | IP102   | 69.7   | 44.9     |
 | R2000   | 82.6   | 68.2     |
 
+<img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/50455831-9020-4f70-9d47-60b60ff36883" />
 
 #### Visualization
 ![ours](https://github.com/user-attachments/assets/78cab0a6-a7c7-41cb-9c38-2d1000f725a4)
