@@ -1,7 +1,8 @@
 ## PestNet: Hierarchical Scaled Dot-Product Attention for Insect Pest Detection
 
 #### Overall architecture of the proposed PestNet model for insect pest detection
-<img width="687" height="360" alt="image" src="https://github.com/user-attachments/assets/edec43f5-3357-4f7e-96d2-d3a7cf675197" />
+<img width="968" height="505" alt="image" src="https://github.com/user-attachments/assets/7a5517c3-4f62-479e-abb5-415f0ea958ee" />
+
 
 #### Dataset
 | Dataset | Download | Class # | Image # |
