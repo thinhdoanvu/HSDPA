@@ -5,9 +5,9 @@
 
 
 ### Inference
-'''
+```
 yolo task=detect mode=predict model=weights/best.pt source=input/images save=True
-'''
+```
 
 ### Quantitative results of different methods on the R2000 dataset:
 <img width="316" height="364" alt="image" src="https://github.com/user-attachments/assets/592d2104-c8a7-46d2-afb1-19cbe3b8256d" />
