@@ -1,11 +1,10 @@
 # Image size = 640x640x3
 # output = min(max_channels, channel input)x width
-# Pretrain r200v1: yolo task=detect mode=train model=runs\detect\k4_69.4\weights\best.pt data=..\..\datasets\r2000v1\r2000v1.yaml epochs=200 imgsz=640 plots=True
 
 nc: 102  # number of classes
 scales: # model C2f by True
   # [depth, width, max_channels]
-  ex: [0.33, 1.00, 1024]   # summary: C2f: 6-9-9-6-6-6-6-6 342 layers, 79,600,609 parameters, 199.9 GFLOPs ==> 69.42(r2000v1=)
+  ex: [0.33, 1.00, 1024]
 
 # YOLOv8.l backbone
 backbone:
