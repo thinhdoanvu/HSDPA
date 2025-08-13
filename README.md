@@ -22,6 +22,7 @@ Hyperparameters:
 | R2000   | 82.6   | 68.2     |
 
 #### IP102 Training Plot
+<img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/ca4054d1-165a-4443-aae0-b63ca94008f2" />
 
 
 #### R2000 Training Plot
