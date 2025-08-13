@@ -129,8 +129,8 @@ class Spatial_Attention(nn.Module):    # Input CxHxW
         super().__init__()
         self.ha = H_Attention(c1, c1)
         self.wa = W_Attention(c1, c1)
-        self.mp5 = nn.MaxPool2d(kernel_size=5, stride=2, padding=5//2)
-        self.mp9 = nn.MaxPool2d(kernel_size=9, stride=2, padding=9//2)
+        self.mp3 = nn.MaxPool2d(kernel_size=5, stride=2, padding=3//2)
+        self.mp7 = nn.MaxPool2d(kernel_size=9, stride=2, padding=7//2)
         self.mp13 = nn.MaxPool2d(kernel_size=13, stride=2, padding=13//2)
         self.conv = nn.Conv2d(c1*3, c2, 1, 1)   # after concate 3 maxpoling
         self.bn = nn.BatchNorm2d(c2)
@@ -145,9 +145,9 @@ class Spatial_Attention(nn.Module):    # Input CxHxW
         hw_att = x * h_att * w_att                             
         # print("# H*W Output Size: ", hw_att.size())         # B x C1 x H x W
         
-        mpl5 = self.mp5(x)
+        mpl3 = self.mp3(x)
         # print("# MP5 Output Size: ", mpl5.size())           # B x C1 x H/2 x W/2
-        mpl9 = self.mp9(x)
+        mpl7 = self.mp7(x)
         # print("# MP9 Output Size: ", mpl9.size())           # B x C1 x H/2 x W/2
         mpl13 = self.mp13(x)
         # print("# MP13 Output Size: ", mpl13.size())         # B x C1 x H/2 x W/2
