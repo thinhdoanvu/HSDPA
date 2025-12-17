@@ -24,10 +24,22 @@ Hyperparameters:
 #### IP102 Training Plot
 <img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/ca4054d1-165a-4443-aae0-b63ca94008f2" />
 
+<img width="1811" height="1248" alt="image" src="https://github.com/user-attachments/assets/4e3f0d8b-4fb5-4fa0-b85c-054e5831bcb7" />
+
+
 
 #### R2000 Training Plot
 
 <img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/50455831-9020-4f70-9d47-60b60ff36883" />
 
+<img width="879" height="1068" alt="image" src="https://github.com/user-attachments/assets/11f7f782-dab2-4f81-a7a2-7628d883d4ce" />
+
+#### Pest24 validation
+
+<img width="926" height="439" alt="image" src="https://github.com/user-attachments/assets/e52244d2-c60d-480c-8c4c-2ec701b9a5a7" />
+
+
+
 #### Visualization
-![ours](https://github.com/user-attachments/assets/78cab0a6-a7c7-41cb-9c38-2d1000f725a4)
+<img width="1648" height="758" alt="image" src="https://github.com/user-attachments/assets/cab46bd6-b519-45ec-9376-a9f112ec830d" />
+
